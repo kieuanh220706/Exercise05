@@ -10,13 +10,13 @@ namespace Excercises_14._2
     {
         static void Main(string[] args)
         {
-            // Phần 1: Sắp xếp bằng Bubble Sort 
+            
             int[] numbers = NhapMang();
             BubbleSort(numbers);
             Console.WriteLine("\nDãy số sau khi sắp xếp :");
             InMang(numbers);
 
-            // Phần 2: Tìm từ trong câu bằng Linear Search
+            
             Console.WriteLine("\nNhập vào một câu:");
             string sentence = Console.ReadLine();
 
